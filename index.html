@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="dist/sweetalert2.all.min.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <h1>Send To Email</h1>
+      <div class="container">
+        <form action="" name="wpu-data">
+          Name
+          <input
+            type="text"
+            name="nama"
+            id="name"
+            placeholder="Enter you name"
+          />Email
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter you email"
+          />Message
+          <textarea
+            name="pesan"
+            id="pesan"
+            cols="30"
+            rows="10"
+            placeholder="Enter you message"
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
