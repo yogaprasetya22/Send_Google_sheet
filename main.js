@@ -11,9 +11,4 @@ form.addEventListener("submit", (e) => {
         icon: "success",
       })
     )
-    .catch((error) => Swal.fire({
-      title: document.getElementById("name").value,
-      text: "Error!!",
-      icon: "error",
-    }));
 });
